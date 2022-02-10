@@ -1,0 +1,121 @@
+.todos-app {
+  padding: 5px;
+  width: 400px;
+}
+
+.todos-app h1 {
+  text-align: center;
+  color: blueviolet;
+}
+
+.todos-app form {
+  display: flex;
+  flex-direction: column;
+}
+
+.todos-app form input {
+  padding: 5px;
+  font-size: 16px;
+  margin: 5px;
+  border: 1px solid #8a2be2;
+  border-radius: 5px;
+  outline: none;
+}
+.todos-app form small {
+  margin: 5px;
+  display: none;
+}
+.todos-app form button {
+  color: white;
+  background-color: blueviolet;
+  border: 0;
+  padding: 5px;
+  margin: 5px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+section h2 {
+  text-align: center;
+  color: blueviolet;
+  border-bottom: 1px solid blueviolet;
+}
+.todos-container {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+}
+
+.todos-container li {
+  margin: 10px 0;
+  background-color: #f6effb;
+  padding: 10px;
+  /* border-radius: 5px; */
+  word-wrap: break-word;
+}
+
+#edit {
+  background-color: rgb(0, 140, 255);
+  border: 0;
+  color: white;
+  cursor: pointer;
+  margin: 0px 5px 10px 10px;
+  border-radius: 5px;
+  padding: 5px;
+}
+#delete {
+  background-color: rgba(255, 60, 0, 0.849);
+  border: 0;
+  color: white;
+  cursor: pointer;
+  margin: 0px 5px 10px 5px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#warning {
+  color: red;
+  /* display: none; */
+}
+
+.list-item {
+  background-color: #f6effb;
+}
+
+.update-task {
+  display: none;
+  padding: 5px;
+  margin: 10px 0;
+  background-color: #f6effb;
+  word-wrap: break-word;
+}
+
+.update-task input {
+  outline: none;
+  padding: 5px;
+  border: 0;
+  width: 100%;
+  background-color: transparent;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+#update {
+  background-color: cornflowerblue;
+  border: 0;
+  color: white;
+  cursor: pointer;
+  margin: 0px 5px 5px 5px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#cancel {
+  background-color: rgb(143, 140, 140);
+  border: 0;
+  color: white;
+  cursor: pointer;
+  margin: 0px 5px 5px 5px;
+  border-radius: 5px;
+  padding: 5px;
+}
