@@ -16,10 +16,11 @@
 .todos-app form input {
   padding: 5px;
   font-size: 16px;
-  margin: 5px;
+  margin: 10px 5px;
   border: 1px solid #8a2be2;
   border-radius: 5px;
   outline: none;
+  font-weight: 200;
 }
 .todos-app form small {
   margin: 5px;
@@ -36,9 +37,9 @@
 }
 
 section h2 {
-  text-align: center;
+  /* text-align: center; */
   color: blueviolet;
-  border-bottom: 1px solid blueviolet;
+  margin: 0;
 }
 .todos-container {
   list-style-type: none;
@@ -59,7 +60,7 @@ section h2 {
   border: 0;
   color: white;
   cursor: pointer;
-  margin: 0px 5px 10px 10px;
+  margin: 10px 5px 10px 10px;
   border-radius: 5px;
   padding: 5px;
 }
@@ -68,14 +69,9 @@ section h2 {
   border: 0;
   color: white;
   cursor: pointer;
-  margin: 0px 5px 10px 5px;
+  margin: 10px 5px 10px 5px;
   border-radius: 5px;
   padding: 5px;
-}
-
-#warning {
-  color: red;
-  /* display: none; */
 }
 
 .list-item {
@@ -83,11 +79,19 @@ section h2 {
 }
 
 .update-task {
-  display: none;
   padding: 5px;
   margin: 10px 0;
   background-color: #f6effb;
   word-wrap: break-word;
+  border-radius: 5px;
+}
+
+.task {
+  padding: 5px;
+  margin: 10px 0;
+  background-color: #f6effb;
+  word-wrap: break-word;
+  border-radius: 5px;
 }
 
 .update-task input {
@@ -95,9 +99,10 @@ section h2 {
   padding: 5px;
   border: 0;
   width: 100%;
-  background-color: transparent;
+  /* background-color: transparent; */
   font-size: 16px;
   margin-bottom: 5px;
+  box-sizing: border-box;
 }
 
 #update {
@@ -105,7 +110,7 @@ section h2 {
   border: 0;
   color: white;
   cursor: pointer;
-  margin: 0px 5px 5px 5px;
+  margin: 5px;
   border-radius: 5px;
   padding: 5px;
 }
@@ -115,7 +120,18 @@ section h2 {
   border: 0;
   color: white;
   cursor: pointer;
-  margin: 0px 5px 5px 5px;
+  margin: 5px;
   border-radius: 5px;
   padding: 5px;
+}
+
+#tasks-header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  box-sizing: border-box;
+  align-items: center;
+  border-bottom: 1px solid blueviolet;
+  padding: 5px;
+  margin-top: 10px;
 }
